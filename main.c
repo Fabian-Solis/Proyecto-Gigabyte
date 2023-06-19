@@ -709,9 +709,10 @@ void entrenamientoPokemon(Entrenador entrenadores[], HashMap *Pokedex, HashMap *
         break;
 
       case 4 :
-        escribirLentamente("Has huido de la batalla ...");
+        printf("\nHas huído de la batalla ... \n\n");
+        //escribirLentamente("Has huido de la batalla ...");
         puts("\n");
-        //printf("\nHas huído de la batalla ... \n\n");
+        
         return;
     }
   }
@@ -722,7 +723,8 @@ void entrenamientoPokemon(Entrenador entrenadores[], HashMap *Pokedex, HashMap *
   }
 
   puts("");
-  escribirLentamente("Felicidades has vencido a la entrenadora Jessica!!");
+  //escribirLentamente("Felicidades has vencido a la entrenadora Jessica!!");
+  printf("Felicidades has vencido a la entrenadora Jessica!!");
   puts("\n");
   
   //printf("\nFelicidades has vencido a la entrenadora Jessica!!\n\n");
@@ -754,15 +756,15 @@ int main()
 
   char trainer_username[MAX];
   
-  //printf("¡Bienvenido al simulador de combates de Pokémon Pokéduel!\n\n");
+  printf("¡Bienvenido al simulador de combates de Pokémon Pokéduel!\n\n");
 
-  escribirLentamente("Bienvenido al simulador de combates de Pokemon Pokeduel!");
+  //escribirLentamente("Bienvenido al simulador de combates de Pokemon Pokeduel!");
   
   puts("\n");
   
-  //printf("Ingresa tu nombre de entrenador!\n");
+  printf("Ingresa tu nombre de entrenador!\n");
   
-  escribirLentamente("Ingresa tu nombre de entrenador!");
+  //escribirLentamente("Ingresa tu nombre de entrenador!");
   
   puts("");
   

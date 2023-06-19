@@ -142,7 +142,7 @@ char *gets_csv_field(char *tmp, int k) //
   return NULL;
 }
 
-void escribirLentamente(char* cadena) 
+/*void escribirLentamente(char* cadena) 
 {
   for (int i = 0; cadena[i] != '\0'; i++) 
   {
@@ -150,4 +150,4 @@ void escribirLentamente(char* cadena)
     fflush(stdout); 
     usleep(2);
   }
-}
+}*/
